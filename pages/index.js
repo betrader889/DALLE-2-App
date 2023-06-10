@@ -64,7 +64,7 @@ export default function Home() {
             type="text"
             value={token}
             onChange={(e) => setToken(e.target.value)}
-            placeholder="密码加微信：chatgpt0320"
+            placeholder="密码加微信：chatgpt0302"
           />
           <input
             id="prompt"
