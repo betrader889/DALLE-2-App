@@ -82,7 +82,7 @@ export default function Home() {
             max="10"
           />
           {"  "}
-          <button onClick={getImages}>Get {number} Images</button>
+          <button onClick={getImages}>生成 {number} 张图片</button>
         </p>
         <small>
           下载文件格式选择:{" "}
