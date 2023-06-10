@@ -51,12 +51,12 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create DALLE 2 App</title>
+        <title>叁思AI绘画</title>
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Create images with <span className={styles.titleColor}>DALLE 2</span>
+          叁思AI <span className={styles.titleColor}>绘画</span>
         </h1>
         <p className={styles.description}>
           <input
@@ -85,7 +85,7 @@ export default function Home() {
           <button onClick={getImages}>Get {number} Images</button>
         </p>
         <small>
-          Download as:{" "}
+          下载文件格式选择:{" "}
           <select
             id="type"
             value={type}
@@ -98,7 +98,7 @@ export default function Home() {
             <option value="avif">Avif</option>
           </select>
           {" "}
-          Click the image below and save.
+          点击图片即可保存
         </small>
         <br />
         {error ? ( <div className={styles.error}>Something went wrong. Try again.</div> ) : ( <></> )}
